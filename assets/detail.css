@@ -1,1 +1,17 @@
 @import './colors.css';
+
+.detail {
+  padding: 1rem;
+}
+
+.detail img {
+  max-width: calc(45vw - 5rem);
+  padding: 0.75rem;
+  border: 4px solid transparent;
+}
+
+.detail .content {
+  width: 45vw;
+  float: right;
+  margin-left: 2.5rem;
+}

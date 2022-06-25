@@ -12,6 +12,8 @@ body {
   min-height: calc(100vh - 5rem);
   position: relative;
   padding-bottom: 5rem !important;
+  display: inline-block;
+  width: 100%;
 }
 
 nav {

@@ -48,3 +48,17 @@
   color: var(--light);
   background-color: var(--orange);
 }
+
+@media screen and (max-width: 800px) {
+  .detail img {
+    max-width: calc(90vw - 5rem);
+    margin-left: calc(5vw + 0.5rem);
+  }
+
+  .detail .content {
+    width: calc(90vw - 5rem);
+    margin-top: 3rem;
+    float: left;
+    margin-left: calc(5vw + 0.5rem); 
+  }
+}

@@ -15,3 +15,36 @@
   float: right;
   margin-left: 2.5rem;
 }
+
+.detail .image_color {
+  width: 12rem;
+  height: 4.5rem;
+  padding: 0.75rem;
+  border: 2px solid var(--brown);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_color span {
+  border: 2px solid var(--brown);
+  padding: 0.75rem;
+  text-transform: uppercase;
+}
+
+.detail .description::first-letter {
+  text-transform: uppercase;
+}
+
+.button {
+  text-decoration: none;
+  color: var(--brown);
+  padding: 1rem;
+  border: 2px solid var(--orange);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--light);
+  background-color: var(--orange);
+}

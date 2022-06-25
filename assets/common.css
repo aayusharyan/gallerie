@@ -65,3 +65,34 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 830px) {
+  footer h1 {
+    display: none;
+  }
+  footer {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+  }
+  body {
+    min-height: calc(100vh - 10rem) !important;
+    padding-bottom: 10rem !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  nav {
+    display: inline-block;
+    width: 100%;
+  }
+
+  nav form {
+    float: none;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+  }
+}
